@@ -31,7 +31,7 @@ window.onload = function() {
 
     Particle.prototype.draw = function() {
         this.x += this.vx / 5;
-        this.y += Math.sin(this.x / 5);
+        this.y += Math.sin(this.x / -10);
 
         this.life++;
 
